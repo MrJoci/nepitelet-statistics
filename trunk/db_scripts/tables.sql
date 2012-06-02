@@ -1,14 +1,16 @@
-brands
-	id - INTEGER UNSIGNED NOT NULL;
+# + rows: table name
+# \t rows: columns
++brands
+	id - INTEGER UNSIGNED NOT NULL PRIMARY KEY;
 	name - VARCHAR(100) NOT NULL;
 	url - TEXT NOT NULL;
-types
-	id - INTEGER UNSIGNED NOT NULL;
++types
+	id - INTEGER UNSIGNED NOT NULL PRIMARY KEY;
 	brand_id - INTEGER UNSIGNED NOT NULL;
 	name - VARCHAR(100) NOT NULL;
 	url - TEXT NOT NULL;
-verdicts
-	id - INTEGER UNSIGNED NOT NULL;
++verdicts
+	id - INTEGER UNSIGNED NOT NULL PRIMARY KEY;
 	type_id - INTEGER UNSIGNED NOT NULL;
 	name - VARCHAR(100) NOT NULL;
 	written_at - DATETIME;
@@ -23,12 +25,3 @@ verdicts
 	faults - TEXT;
 	service_location - TEXT;
 	url - TEXT NOT NULL;
-
-
-
-CREATE TABLE `nepitelet`.`brands` (
-  `id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(100) NOT NULL,
-  PRIMARY KEY (`id`)
-)
-ENGINE = InnoDB;
