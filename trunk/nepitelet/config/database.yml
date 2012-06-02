@@ -16,6 +16,17 @@ nepitelet_dev:
   username: root
   password: contel1
   host: localhost
+  port: 3307
+  encoding: utf8
+  
+development:
+  adapter: mysql
+  database: nepitelet
+  username: root
+  password: contel1
+  host: localhost
+  port: 3307
+  encoding: utf8
 
 # Warning: The database defined as 'test' will be erased and
 # re-generated from your development database when you run 'rake'.
