@@ -1,5 +1,5 @@
 class BrandsController < ApplicationController
   def list
-    render :text => ListMaker.list
+    super
   end
 end
