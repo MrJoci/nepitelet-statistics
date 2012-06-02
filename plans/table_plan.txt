@@ -1,0 +1,25 @@
+brands
+	id
+	name
+	url
+types
+	id
+	brand_id
+	name
+	url
+verdicts
+	id
+	type_id
+	name
+	written_at
+	year
+	usage_time
+	km_at_buy
+	km_driven
+	consuption
+	next_car
+	rate
+	story
+	faults
+	service_location
+	url
