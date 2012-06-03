@@ -16,4 +16,5 @@ class ApplicationController < ActionController::Base
   def show
     render :template => 'application/show'
   end
+  
 end
