@@ -1,0 +1,1 @@
+Nepitelet.hu is a famous hungary "blog" about car uasge experiemnces. But the search and statistic engine is very weak, so I decided to make a project which parsing this page and creates useful statistical page
